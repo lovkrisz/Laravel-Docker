@@ -2,7 +2,8 @@
 
 1. Clone this project and create src and mysql folder
 2. run docker-compose up -d --build 
-3. in your .env file change DB_CONNECTION to mysql and DB_HOST to mysql
+3. place your Laravel project to the src folder or create a new project with docker-compose run --rm composer create-project laravel/laravel .
+4. in your .env file change DB_CONNECTION to mysql and DB_HOST to mysql
 
 # Composer
 
